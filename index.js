@@ -4,7 +4,7 @@ const client = new Discord.Client(
 );
 const mysql = require("mysql") //npm install mysql
 
-client.login("OTc2NDU3NTE2MzYxODc1NDY2.GOsTgN.EFnKeBPxnPEBmYfnU2sA_aWGvXGakO6tXZKZEM");
+client.login(process.env.token);
 
 client.on("ready", () => {
         console.log("BOT ONLINE");
