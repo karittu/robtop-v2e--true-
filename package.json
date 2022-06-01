@@ -20,5 +20,8 @@
     "mysql": "^2.18.1",
     "opusscript": "^0.0.8",
     "yt-channel-info": "^3.0.4"
+  },  
+  "engines":{
+    "node":"16.10.x"
   }
 }
